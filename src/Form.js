@@ -3,7 +3,6 @@ import { Field, reduxForm, formValueSelector } from 'redux-form'
 import { connect } from 'react-redux';
 import {Container} from '@material-ui/core';
 import normalizeTime from './normalizeTime'
-import normalizeInt from './normalizeInt';
 
 const required = value => value ? undefined : 'Required'
 const minLength = min => value => 
